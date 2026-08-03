@@ -21,7 +21,7 @@ Các nội dung chính:
 
 - [x] **Prefix Sum (Tổng tiền tố)**
   - 📖 [Đọc Lý Thuyết & Mẹo](docs/01_Prefix_Sum.md)
-- [ ] **Two Pointers (Hai con trỏ)**
+- [x] **Two Pointers (Hai con trỏ)**
   - 📖 [Đọc Lý Thuyết](docs/02_Two_Pointers.md)
 
 ### 2. Cấu Trúc Dữ Liệu
