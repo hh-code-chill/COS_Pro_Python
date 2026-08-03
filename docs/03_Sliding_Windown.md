@@ -15,16 +15,16 @@ Giữ một "cửa sổ" trên đoạn con liên tiếp của mảng/chuỗi. Kh
 Cho mảng $a = [2, 1, 5, 1, 3, 2]$ và kích thước cửa sổ cố định $k = 3$. Tìm tổng $k$ phần tử liên tiếp lớn nhất.
 
 * **Khởi tạo:** Tính tổng $k$ phần tử đầu tiên:
-  $$\text{cua\_so} = a[0] + a[1] + a[2] = 2 + 1 + 5 = 8$$
-  Lưu $\text{tot} = 8$.
+  `cua_so` $= a[0] + a[1] + a[2] = 2 + 1 + 5 = 8$
+  Lưu `tot = 8`.
 
 * **Trượt cửa sổ từ $i = 3$ đến $n-1$:**
   * **Khi $i = 3$ (nhận $a[3] = 1$, bỏ $a[0] = 2$):**
-    $$\text{cua\_so} = 8 + 1 - 2 = 7 \rightarrow \text{tot} = \max(8, 7) = 8$$
+    `cua_so` $= 8 + 1 - 2 = 7 \rightarrow \text{tot} = \max(8, 7) = 8$
   * **Khi $i = 4$ (nhận $a[4] = 3$, bỏ $a[1] = 1$):**
-    $$\text{cua\_so} = 7 + 3 - 1 = 9 \rightarrow \text{tot} = \max(8, 9) = 9$$
+    `cua_so` $= 7 + 3 - 1 = 9 \rightarrow \text{tot} = \max(8, 9) = 9$
   * **Khi $i = 5$ (nhận $a[5] = 2$, bỏ $a[2] = 5$):**
-    $$\text{cua\_so} = 9 + 2 - 5 = 6 \rightarrow \text{tot} = \max(9, 6) = 9$$
+    `cua_so` $= 9 + 2 - 5 = 6 \rightarrow \text{tot} = \max(9, 6) = 9$
 
 Kết quả tổng lớn nhất đạt được là **$9$** (tương ứng đoạn $[5, 1, 3]$).
 
