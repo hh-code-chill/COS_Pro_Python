@@ -20,9 +20,19 @@ Các nội dung chính:
 ### 1. Thuật Toán Cơ Bản
 
 - [x] **Prefix Sum (Tổng tiền tố)**
-  - 📖 [Đọc Lý Thuyết & Mẹo](docs/01_Prefix_Sum.md)
+  - 📖 [Đọc Lý Thuyết](docs/01_Prefix_Sum.md)
 - [x] **Two Pointers (Hai con trỏ)**
   - 📖 [Đọc Lý Thuyết](docs/02_Two_Pointers.md)
+- [x] **Sliding Wingdow (Cửa sổ trượt)**
+| - 📖 [Đọc lý thuyết](docs/03_Sliding_Windown.md)
+- [x] **Binary Search (Tìm kiếm nhị phân)**
+| - 📖 [Đọc lý thuyết](docs/04_Binary_Search.md)
+- [x] **Greedy (Tham lam)**
+| - 📖 [Đọc lý thuyết](docs/05_Greedy.md)
+- [x] **Dynamic programming (Quy hoạch động)**
+| - 📖 [Đọc lý thuyết](docs/06_Dynamic_programming.md)
+- [x] **Backtracking (Quay lùi)**
+| - 📖 [Đọc lý thuyết](docs/07_Backtracking.md)
 
 ### 2. Cấu Trúc Dữ Liệu
 
