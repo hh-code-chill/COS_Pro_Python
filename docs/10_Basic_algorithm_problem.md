@@ -9,8 +9,9 @@ Cho một mảng các số nguyên dương `arr` và một số nguyên `K`. Hã
 - **Gợi ý luyện tập (Code cả 2 cách):**
   - **Cách 1 - Two Pointers / Sliding Window:** Do mảng chỉ chứa số dương, bạn có thể dùng 2 con trỏ `trai` và `phai`. Lợi thế: Bộ nhớ $O(1)$, code rất trực quan.
     - [Đọc giải 1](../src/basic_algorithm_problem/ex1_1.py): Đây là bài giải áp dụng máy móc kĩ thuật sliding windown. Ý tưởng của nó là duyệt qua toàn bộ mảng con có 1 đến n phần tử và kiểm tra từng mảng có thỏa mãn không với 2 vòng lặp for => hiệu quả $O(n^2)$.
-    - [Đọc giải 2](../src//basic_algorithm_problem/ex1_2.py): Vận dụng linh hoạt 2 pointer chỉ áp dụng khi mảng không âm. Hiệu quả $O(n)$.
+    - [Đọc giải 2](../src/basic_algorithm_problem/ex1_2.py): Vận dụng linh hoạt 2 pointer chỉ áp dụng khi mảng không âm. Hiệu quả $O(n)$.
   - **Cách 2 - Prefix Sum + Hash Map (Dictionary):** Lưu trữ số lần xuất hiện của các tổng tiền tố. Lợi thế: Xử lý mượt mà kể cả khi mảng có chứa số âm (nếu đề thi mở rộng điều kiện). Độ phức tạp thời gian vẫn là $O(n)$.
+    - [Đọc giải 3](../src/basic_algorithm_problem/ex1_3.py)
 
 - Ứng dụng:
   - 📊 1. Phân tích Dữ liệu Tài chính / Chứng khoán  
