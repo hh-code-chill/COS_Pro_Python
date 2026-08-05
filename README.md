@@ -7,8 +7,9 @@ Sơ đồ tiến độ: [x] 01% hoàn thành.
 
 # 🗺️ Lộ Trình Kiến Thức (Roadmap)
 
-[Đọc cấu trúc bài thi](docs/09_Cau_truc_bai_thi.md)
-[Đọc thể lệ cuộc thi 2026](https://pythonmaster.vn/the-le-thi/)
+[Đọc cấu trúc bài thi](docs/09_Cau_truc_bai_thi.md) <br>
+<a href="https://pythonmaster.vn/the-le-thi/" target="_blank">Đọc thể lệ cuộc thi 2026</a> <br>
+[Đọc về độ phức tạp thuật toán (Algorithm Complexity)](docs/11_Algorithm_complexity.md)
 
 ## Xác suất
 
@@ -39,7 +40,7 @@ Các nội dung chính:
 - [ ] **Recursion (Đệ quy)**
   - 📖 [Đọc lý thuyết](docs/08_Recursion.md)
 - [ ] **Basic algorithm problem (Bài toán giải thuật cơ bản)**
-  - 📖 [Đọc lý thuyết](docs/10_Basic_algorithm_problem.md)
+  - 📖 [Đọc đề bài](docs/10_Basic_algorithm_problem.md)
 
 ### 2. Cấu Trúc Dữ Liệu
 
